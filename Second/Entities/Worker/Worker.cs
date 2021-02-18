@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Second.Entities.Enums;
+using Second.Entities.Enums.Worker;
 
-namespace Second.Entities
+namespace Second.Entities.Worker
 {
     class Worker
     {

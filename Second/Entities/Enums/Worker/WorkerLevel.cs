@@ -1,5 +1,5 @@
 ﻿
-namespace Second.Entities.Enums
+namespace Second.Entities.Enums.Worker
 {
     enum WorkerLevel
     {

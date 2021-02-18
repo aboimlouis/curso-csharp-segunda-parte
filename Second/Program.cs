@@ -1,6 +1,6 @@
 ﻿using System;
-using Second.Entities;
-using Second.Entities.Enums;
+using Second.Entities.Worker;
+using Second.Entities.Enums.Worker;
 using Second.View;
 
 
@@ -15,7 +15,7 @@ namespace Second
             Console.WriteLine("0 - Exit");
             Console.WriteLine("1 - ENUMS - Worker"); //Aula 119 a 121
             Console.WriteLine("2 - ENUMS - Post"); // Aula 122
-            Console.WriteLine("3 - ENUMS - ");
+            Console.WriteLine("3 - ENUMS - Orders (Exercício Proposto)"); //Aula 123
             option = int.Parse(Console.ReadLine());
             if (option == 0)
             {
@@ -28,6 +28,10 @@ namespace Second
             else if (option == 2)
             {
                 PostProgram.Display();
+            }
+            else if (option == 3)
+            {
+                OrderProgram.Display();
             }
             else
             {

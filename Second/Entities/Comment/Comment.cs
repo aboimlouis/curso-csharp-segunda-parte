@@ -1,4 +1,4 @@
-﻿namespace Second.Entities
+﻿namespace Second.Entities.Comment
 {
     class Comment
     {

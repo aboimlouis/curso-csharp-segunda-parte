@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Second.Entities;
-using Second.Entities.Enums;
+using Second.Entities.Worker;
+using Second.Entities.Enums.Worker;
 using System.Globalization;
 namespace Second.View
 {
