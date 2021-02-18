@@ -31,7 +31,7 @@ namespace Second
             }
             else if (option == 3)
             {
-                OrderProgram.Display();
+                OrdersProgram.Display();
             }
             else
             {

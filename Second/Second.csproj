@@ -5,9 +5,4 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Entities\Enums\Order\" />
-    <Folder Include="Entities\Order\" />
-  </ItemGroup>
-
 </Project>
