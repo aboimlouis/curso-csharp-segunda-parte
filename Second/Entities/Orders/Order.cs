@@ -55,17 +55,9 @@ namespace Second.Entities.Orders
             sb.AppendLine("Order items: ");
             foreach (OrderItem orderItem in Items)
             {
-                sb.Append(orderItem.Product.Name);
-                sb.Append(", $");
-                sb.Append(orderItem.Product.Price.ToString("F2"));
-                sb.Append(", Quantity: ");
-                sb.Append(orderItem.Quantity);
-                sb.Append(", Subtotal: $");
-                sb.AppendLine(orderItem.SubTotal().ToString("F2"));
-                sb.Append("Total price: $");
-                sb.AppendLine(Total().ToString("F2"));
-
+                sb.Append(orderItem.ToString());
             }
+            sb.AppendLine(Total().ToString("F2"));
             return sb.ToString();
         }
     }

@@ -23,6 +23,18 @@ namespace Second.Entities.Orders
         {
             return Price * Quantity;
         }
-
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.Append(Product.Name);
+            sb.Append(", $");
+            sb.Append(Product.Price.ToString("F2"));
+            sb.Append(", Quantity: ");
+            sb.Append(Quantity);
+            sb.Append(", Subtotal: $");
+            sb.AppendLine(SubTotal().ToString("F2"));
+            sb.Append("Total price: $");
+            return sb.ToString();
+        }
     }
 }

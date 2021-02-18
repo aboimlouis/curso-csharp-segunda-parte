@@ -43,8 +43,8 @@ namespace Second.View
 
                 order.AddItem(new OrderItem(quantity, price, new Product(productName, price)));
             }
-            Console.WriteLine("ORDER SUMMARY:");
             Console.WriteLine();
+            Console.WriteLine("ORDER SUMMARY:");
             Console.WriteLine(order);
         }
     }
