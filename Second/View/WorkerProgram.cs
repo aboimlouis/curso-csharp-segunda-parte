@@ -23,7 +23,7 @@ namespace Second.View
             WorkerLevel level = Enum.Parse<WorkerLevel>(Console.ReadLine());
 
             Console.Write("Base salary: ");
-            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture));
+            double baseSalary = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Console.Write("How many contracts to this worker: ");
             int numberOfContracts = int.Parse(Console.ReadLine());
