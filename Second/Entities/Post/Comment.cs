@@ -1,4 +1,4 @@
-﻿namespace Second.Entities.Comment
+﻿namespace Second.Entities.Post
 {
     class Comment
     {

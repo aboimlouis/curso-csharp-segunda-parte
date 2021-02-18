@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Second.Entities.Comment
+namespace Second.Entities.Post
 {
     class Post
     {

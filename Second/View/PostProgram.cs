@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Second.Entities.Comment;
+using Second.Entities.Post;
 
 namespace Second.View
 {
