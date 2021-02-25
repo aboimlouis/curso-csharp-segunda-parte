@@ -9,7 +9,7 @@ namespace Second.View
     {
         public static void Display()
         {
-            Account acc = new Account(1001, "Alex", 0.0);
+            Account acc = new Account(1001, "Alex", 500.0);
             BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
             SavingsAccount sacc = new SavingsAccount(1003, "John", 0.0, 0.01);
 
@@ -27,10 +27,10 @@ namespace Second.View
                 bacc2 = (BusinessAccount)acc2;
                 //bacc2 = acc2 as BusinessAccount; forma alternativa de sintaxe
             }
-            else
-            {
-                Console.WriteLine("Incompatible");
-            }
+
+
+            //Virtual e Override
+            
 
         }
     }
