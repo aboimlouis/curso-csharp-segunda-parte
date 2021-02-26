@@ -16,7 +16,8 @@ namespace Second
             Console.WriteLine("1 - ENUMS - Worker"); //Aula 119 a 121
             Console.WriteLine("2 - ENUMS - Post"); // Aula 122
             Console.WriteLine("3 - ENUMS - Orders (Exercício Proposto)"); //Aula 123
-            Console.WriteLine("4 - INHERITANCE - Orders (Exercício Proposto)");
+            Console.WriteLine("4 - INHERITANCE - Herança");
+            Console.WriteLine("5 - INHERITANCE - Employee (Exercício Resolvido)");
 
             option = int.Parse(Console.ReadLine());
             if (option == 0)
