@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Second.Entities.Account
 {
-    class SavingsAccount : Account
+    sealed class SavingsAccount : Account //sealed determina que não é possível herdar
     {
         public double InterestRate { get; set; }
 
@@ -23,11 +23,13 @@ namespace Second.Entities.Account
             Balance += Balance * InterestRate;
         }
 
-        public override void Withdraw(double amount)
+        public sealed override void Withdraw(double amount)
         {
             base.Withdraw(amount);
             Balance -= 2.0;
             //Balance -= amount;
         }
+        //SEALED em método sú funciona em método override, evita de ser usado por coisas herdadas
+
     }
 }
