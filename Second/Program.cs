@@ -17,7 +17,8 @@ namespace Second
             Console.WriteLine("2 - ENUMS - Post"); // Aula 122
             Console.WriteLine("3 - ENUMS - Orders (Exercício Proposto)"); //Aula 123
             Console.WriteLine("4 - INHERITANCE - Herança");
-            Console.WriteLine("5 - INHERITANCE - Employee (Exercício Resolvido)");
+            Console.WriteLine("5 - INHERITANCE - Employee (Exercício Resolvido)"); //aula 131
+            Console.WriteLine("5 - INHERITANCE - Product (Exercício Proposto)"); //aula 133
 
             option = int.Parse(Console.ReadLine());
             if (option == 0)
@@ -43,6 +44,10 @@ namespace Second
             else if (option == 5)
             {
                 EmployeeProgram.Display();
+            }
+            else if (option == 6)
+            {
+                ProductProgram.Display();
             }
             else
             {
