@@ -29,7 +29,7 @@ namespace Second.Entities.Account
             Balance -= 2.0;
             //Balance -= amount;
         }
-        //SEALED em método sú funciona em método override, evita de ser usado por coisas herdadas
+        //SEALED em método só funciona em override, evita de ser usado por coisas herdadas
 
     }
 }
