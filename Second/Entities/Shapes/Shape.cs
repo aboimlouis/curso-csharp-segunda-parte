@@ -25,7 +25,7 @@ namespace Second.Entities.Shapes
             StringBuilder sb = new StringBuilder();
             sb.Append("Color: ");
             sb.Append(Color.ToString());
-            sb.Append(" Area: ");
+            sb.Append(" / Area: ");
             sb.Append(Area().ToString("F2"));
             return sb.ToString();
         }
