@@ -40,6 +40,10 @@ namespace Second
             {
                 AccountProgram.Display();
             }
+            else if (option == 5)
+            {
+                EmployeeProgram.Display();
+            }
             else
             {
                 Console.WriteLine("This option does not exist.");

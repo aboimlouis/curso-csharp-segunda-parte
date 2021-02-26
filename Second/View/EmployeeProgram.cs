@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Second.Entities.Employee;
+using System.Globalization;
 
 namespace Second.View
 {
@@ -15,7 +16,7 @@ namespace Second.View
 
             List<Employee> employees = new List<Employee>();
 
-            for (int i = 0; i > numberOfEmployees; i++)
+            for (int i = 0; i < numberOfEmployees; i++)
             {
                 Console.WriteLine("Employee #" + (i + 1) + ":");
                 Console.Write("Outsourced (y/n): ");
@@ -25,14 +26,14 @@ namespace Second.View
                 Console.Write("Hours: ");
                 int hours = int.Parse(Console.ReadLine());
                 Console.Write("Value per Hour: ");
-                double valuePerHour = double.Parse(Console.ReadLine());
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                 if (outsourced == "y")
                 {
                     Console.Write("Additional Charge: ");
-                    double additionalCharge = double.Parse(Console.ReadLine());
+                    double additionalCharge = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     employees.Add(new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge));
                 }
-                else if (outsourced == "f") 
+                else if (outsourced == "n") 
                 {
                     employees.Add(new Employee(name, hours, valuePerHour));
                 }
