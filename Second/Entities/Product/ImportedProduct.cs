@@ -23,7 +23,7 @@ namespace Second.Entities.Product
             sb.Append(Name);
             sb.Append(" $ ");
             sb.Append(TotalPrice().ToString("F2"));
-            sb.Append("(Customs fee: $ ");
+            sb.Append(" (Customs fee: $ ");
             sb.Append(CustomsFee);
             sb.Append(")");
             return sb.ToString();

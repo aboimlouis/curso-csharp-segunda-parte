@@ -21,9 +21,9 @@ namespace Second.Entities.Product
         {
             StringBuilder sb = new StringBuilder();
             sb.Append(Name);
-            sb.Append("(used) $ ");
+            sb.Append(" (used) $ ");
             sb.Append(Price);
-            sb.Append("(Manufacture date: ");
+            sb.Append(" (Manufacture date: ");
             sb.Append(ManufactureDate.ToString("dd/MM/yyyy"));
             sb.Append(")");
             return sb.ToString();
