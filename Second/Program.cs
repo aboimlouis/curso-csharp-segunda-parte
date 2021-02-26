@@ -19,6 +19,7 @@ namespace Second
             Console.WriteLine("4 - INHERITANCE - Herança");
             Console.WriteLine("5 - INHERITANCE - Employee (Exercício Resolvido)"); //aula 131
             Console.WriteLine("6 - INHERITANCE - Product (Exercício Proposto)"); //aula 133
+            Console.WriteLine("7 - INHERITANCE - Shapes (Exercício Resolvido)"); //aula 136
 
             option = int.Parse(Console.ReadLine());
             if (option == 0)
@@ -48,6 +49,10 @@ namespace Second
             else if (option == 6)
             {
                 ProductProgram.Display();
+            }
+            else if (option == 7)
+            {
+                ShapesProgram.Display();
             }
             else
             {

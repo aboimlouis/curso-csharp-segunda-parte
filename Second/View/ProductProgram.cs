@@ -15,6 +15,7 @@ namespace Second.View
             List<Product> products = new List<Product>();
             for(int i = 0; i < numberOfProducts; i++)
             {
+                Console.WriteLine($"Enter #{i + 1} product data: ");
                 Console.Write("Common, used or imported (c/u/i)? ");
                 string productType = Console.ReadLine();
                 Console.Write("Name: ");
