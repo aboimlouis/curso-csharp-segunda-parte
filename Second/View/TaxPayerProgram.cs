@@ -35,7 +35,7 @@ namespace Second.View
                 {
                     Console.Write("Number of employees: ");
                     int numberOfEmployees = int.Parse(Console.ReadLine());
-                    taxPayers.Add(new Individual(name, annualIncome, numberOfEmployees));
+                    taxPayers.Add(new Company(name, annualIncome, numberOfEmployees));
                 }
                 else
                 {
