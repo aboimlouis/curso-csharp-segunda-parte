@@ -20,6 +20,7 @@ namespace Second
             Console.WriteLine("5 - INHERITANCE - Employee (Exercício Resolvido)"); //aula 131
             Console.WriteLine("6 - INHERITANCE - Product (Exercício Proposto)"); //aula 133
             Console.WriteLine("7 - INHERITANCE - Shapes (Exercício Resolvido)"); //aula 136
+            Console.WriteLine("8 - INHERITANCE - TaxPayer (Exercício Proposto)"); //aula 137
 
             option = int.Parse(Console.ReadLine());
             if (option == 0)
@@ -53,6 +54,10 @@ namespace Second
             else if (option == 7)
             {
                 ShapesProgram.Display();
+            }
+            else if (option ==8)
+            {
+                TaxPayerProgram.Display();
             }
             else
             {

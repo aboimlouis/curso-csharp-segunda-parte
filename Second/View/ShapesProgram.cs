@@ -11,7 +11,7 @@ namespace Second.View
     {
         public static void Display()
         {
-            Console.Write("Enter the number og shapes: ");
+            Console.Write("Enter the number of shapes: ");
             int numberOfShapes = int.Parse(Console.ReadLine());
 
             List<Shape> shapes = new List<Shape>();
