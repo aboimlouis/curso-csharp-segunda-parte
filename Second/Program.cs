@@ -21,6 +21,7 @@ namespace Second
             Console.WriteLine("6 - INHERITANCE - Product (Exercício Proposto)"); //aula 133
             Console.WriteLine("7 - INHERITANCE - Shapes (Exercício Resolvido)"); //aula 136
             Console.WriteLine("8 - INHERITANCE - TaxPayer (Exercício Proposto)"); //aula 137
+            Console.WriteLine("9 - EXCEPTIONS - Reservation (Exercício Proposto)"); //aula 143 a 145
 
             option = int.Parse(Console.ReadLine());
             if (option == 0)
@@ -55,9 +56,13 @@ namespace Second
             {
                 ShapesProgram.Display();
             }
-            else if (option ==8)
+            else if (option == 8)
             {
                 TaxPayerProgram.Display();
+            }
+            else if (option == 9)
+            {
+                ReservationProgram.Display();
             }
             else
             {
